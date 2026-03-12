@@ -16,8 +16,8 @@
         .corporate-overview { background-color: #f0f4f8; border-radius: 8px; }
         .morich-highlight { border: 2px solid #E60012; background-color: #fffafa; position: relative; }
         .morich-highlight::before { content: "morichオススメPoint"; position: absolute; top: -14px; left: 20px; background: #E60012; color: white; padding: 2px 12px; font-size: 0.875rem; font-weight: bold; border-radius: 4px; }
-        .job-card { border-left: 4px solid #E60012; }
         nav { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,0.9); backdrop-filter: blur(4px); border-bottom: 1px solid #ddd; }
+        .anchor-offset { scroll-margin-top: 80px; }
     </style>
 </head>
 <body class="pb-20">
@@ -25,253 +25,205 @@
     <header class="bg-white py-6 border-b-4 border-morich-red">
         <div class="max-w-5xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
             <img src="morich_logo.jpg" alt="morich" class="h-12 mb-4 md:mb-0">
-            <h1 class="text-xl font-bold">右田雄介 様 <span class="text-gray-500 font-normal">パーソナライズWebサイト</span></h1>
+            <h1 class="text-xl font-bold italic">Special Selection for <span class="text-2xl not-italic ml-1">右田雄介 様</span></h1>
         </div>
     </header>
 
-    <nav class="py-3 shadow-sm">
-        <div class="max-w-5xl mx-auto px-4 overflow-x-auto whitespace-nowrap">
-            <ul class="flex space-x-6 text-sm font-bold">
-                <li><a href="#company1" class="hover:text-red-600">1. カイテク株式会社</a></li>
-                <li><a href="#company2" class="hover:text-red-600">2. 株式会社TX-Delight</a></li>
-                <li><a href="#company3" class="hover:text-red-600">3. Mpathy株式会社</a></li>
-                <li><a href="#company4" class="hover:text-red-600">4. 株式会社エムニ</a></li>
-                <li><a href="#company5" class="hover:text-red-600">5. 株式会社ヒュープロ</a></li>
+    <nav class="py-3 shadow-sm overflow-x-auto">
+        <div class="max-w-5xl mx-auto px-4">
+            <ul class="flex space-x-6 text-sm font-bold whitespace-nowrap">
+                <li><a href="#company1" class="hover:text-red-600 transition">1. カイテク株式会社</a></li>
+                <li><a href="#company2" class="hover:text-red-600 transition">2. 株式会社TX-Delight</a></li>
+                <li><a href="#company3" class="hover:text-red-600 transition">3. Mpathy株式会社</a></li>
+                <li><a href="#company4" class="hover:text-red-600 transition">4. 株式会社エムニ</a></li>
+                <li><a href="#company5" class="hover:text-red-600 transition">5. 株式会社ヒュープロ</a></li>
             </ul>
         </div>
     </nav>
 
     <main class="max-w-5xl mx-auto px-4 mt-10 space-y-24">
 
-        <section id="company1" class="scroll-mt-20">
-            <div class="flex flex-wrap gap-2 mb-2">
-                <span class="bg-gray-800 text-white px-3 py-1 text-xs font-bold rounded">HR(採用責任者候補)</span>
-            </div>
+        <section id="company1" class="anchor-offset">
             <h2 class="text-3xl md:text-4xl font-black mb-6">カイテク株式会社</h2>
             
             <div class="corporate-overview p-6 mb-8">
                 <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-widest">Corporate Overview</h3>
                 <table class="w-full text-sm">
-                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">東京都新宿区新宿1丁目23番1号 THE PORTAL 新宿御苑 2F</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32 md:w-48">本社住所</th><td class="py-2">〒160-0022 東京都新宿区新宿1丁目23番1号 THE PORTAL 新宿御苑 2F</td></tr>
                     <tr class="border-b border-gray-200"><th class="py-2 text-left">設立</th><td class="py-2">2018年2月9日</td></tr>
                     <tr class="border-b border-gray-200"><th class="py-2 text-left">従業員数</th><td class="py-2">約52名（役員含む）</td></tr>
-                    <tr><th class="py-2 text-left">上場区分</th><td class="py-2">未上場（N-1期 / IPO準備中）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">未上場（N-1期）</td></tr>
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 text-gray-700 leading-relaxed">
-                <p>「2050年に世界一幸せな超高齢社会をつくる」というビジョンのもと、介護・医療領域の人材不足解消に挑む2018年設立のHRテック企業で、介護・医療・看護領域に特化した単発・スポットワークマッチングサービス「カイテク」を展開しています。<br>
-                慢性的な人材不足という社会構造課題に対し、有資格者限定という独自モデルでアプローチしている点や勤務後5分以内の即時ペイメントや、足りないシフト枠をスポットワークと連携する仕組みなど、現場起点のプロダクト開発を進め、導入事業所は約2.1万、アプリDLは約110万人まで拡大。<br>
-                直近3期連続黒字、営業利益率10％超と、成長性と収益性を両立している点も特徴でIPOを目指しています。今後は介護・医療周辺領域への展開や新規事業、M&Aも視野に入れ、日本で成功モデルを築いた先の海外展開も見据えています。エリア展開も進行中で、介護人材市場の流動化を促進するインフラとしてのポジションを築きつつあります。</p>
-            </div>
+            <div class="prose max-w-none mb-8 text-gray-700 leading-relaxed whitespace-pre-wrap">「2050年に世界一幸せな超高齢社会をつくる」というビジョンのもと、介護・医療領域の人材不足解消に挑む2018年設立のHRテック企業で、介護・医療・看護領域に特化した単発・スポットワークマッチングサービス「カイテク」を展開しています。
+慢性的な人材不足という社会構造課題に対し、有資格者限定という独自モデルでアプローチしている点や勤務後5分以内の即時ペイメントや、足りないシフト枠をスポットワークと連携する仕組みなど、現場起点のプロダクト開発を進め、導入事業所は約2.1万、アプリDLは約110万人まで拡大。
+直近3期連続黒字、営業利益率10％超と、成長性と収益性を両立している点も特徴でIPOを目指しています。
+今後は介護・医療周辺領域への展開や新規事業、M&Aも視野に入れ、日本で成功モデルを築いた先の海外展開も見据えています。エリア展開も進行中で、介護人材市場の流動化を促進するインフラとしてのポジションを築きつつあります。
+
+デロイト トーマツ グループが2026年1月に発表したテクノロジー・メディア・通信業界における成長率ランキング「Technology Fast 50 2025 Japan」において、過去3決算期の収益（売上高）に基づく成長率1位を獲得されています。</div>
 
             <div class="morich-highlight p-6 mb-8 rounded-lg">
-                <p class="text-sm leading-relaxed">2018年2月9日の「福祉の日」に創業し、現在従業員数は役員含め約52名。2050年に「世界一幸せな超高齢社会」を目指し、「歳を重ねるほど、笑顔の人が増える社会」の実現、日本が世界のロールモデルになるための「立役者」にカイテクの全従業員で取り組んでいらっしゃいます。<br>
-                デロイトトーマツグループが2026年1月に発表した「Technology Fast 50 2025 Japan」において、成長率1,616％を記録し見事１位を受賞！直近3期連続で黒字化、営業利益率は10％超と黒字・利益率も確保している成長著しい企業です！<br><br>
-                カイテク社の強みは：①「埋蔵労働時間」の掘り起こしによる圧倒的なマッチング量、②「有資格者100％」と「相互評価」による品質の担保、③行政連携を通じた社会インフラとしての確立。現状、第二・第三の収益柱の創出、新規事業・M&A検討を同時進行で進めるための組織強化が急務となっています。</p>
+                <p class="text-sm leading-relaxed">2018年2月9日の「福祉の日」に創業。
+デロイトトーマツグループが2026年1月に発表した「Technology Fast 50 2025 Japan」において、成長率1,616％を記録し見事１位を受賞！
+直近3期連続で黒字化、営業利益率は10％超と成長性と利益を両立する希有なスタートアップです。
+組織は非常にフラットで、20代〜40代のメンバーが全員経営者マインドを持って主体的に行動されているカルチャーが魅力です。</p>
             </div>
 
             <div class="bg-white border p-6 rounded-lg mb-8 shadow-sm">
-                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール：武藤 高史 氏</h4>
-                <p class="text-sm text-gray-700">1988年生まれ。立命館大学大学院修了後、富士ゼロックスに入社し、エムスリーに参画。祖父母の介護をきっかけに社会課題解決を志し、2018年に創業。介護・医療分野の新しい働き方を提案する起業家として注目されています。</p>
+                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール</h4>
+                <p class="text-sm text-gray-700 font-bold mb-2">代表取締役社長　武藤 高史 氏</p>
+                <p class="text-sm text-gray-700">1988年生まれ。立命館大学大学院情報理工学研究科を修了後、新卒で富士ゼロックス株式会社に入社後、エムスリー株式会社に参画。祖父母の介護をきっかけに、日本が直面する介護・医療人材不足という社会課題の解決を志し、2018年に同社を創業。介護・医療分野の新しい働き方を提案する起業家としても注目されています。</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                <a href="https://corp.caitech.co.jp/" target="_blank" class="block p-4 border rounded hover:bg-gray-50 transition font-bold text-center text-blue-600">企業公式サイト ↗</a>
-                <a href="https://docs.google.com/presentation/d/e/2PACX-1vSQUpcwF2n-OuSsajkugW0ixfr_QI5FPRfTt70YPQU7u5XTiwUZitHswzrjc6GnOJvzJ58HcQhQI27_/pub" target="_blank" class="block p-4 border rounded hover:bg-gray-50 transition font-bold text-center text-blue-600">会社紹介資料 ↗</a>
-                <a href="https://prtimes.jp/main/html/rd/p/000000032.000043426.html" target="_blank" class="block p-4 border rounded hover:bg-gray-50 transition font-bold text-center text-blue-600">Technology Fast 50 受賞記事 ↗</a>
-            </div>
-
-            <div class="job-card bg-gray-50 p-6 rounded">
-                <h3 class="text-xl font-bold mb-4">募集要項：HR(採用責任者候補)</h3>
-                <div class="space-y-4 text-sm text-gray-700">
-                    <div><span class="font-bold text-black">業務内容：</span>中途採用のリーダーとしてダイレクトスカウト・エージェントなど複数のチャネルを活用した成果創出、定量・定性情報に基づく採用プロセスの最適化、採用計画の策定・進捗管理等をリードしていただきます。一人目のHRとして裁量を持ってプレーができるフェーズです。</div>
-                    <div><span class="font-bold text-black">応募資格：</span>IT業界の中途採用実務経験（3年以上）、採用戦略の設計からアクション実行までの経験。HRや採用領域における責任者またはリーダー経験者。</div>
-                    <div><span class="font-bold text-black">勤務地：</span>東京（ハイブリッド勤務可） / 副業：条件により可</div>
-                </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a href="https://corp.caitech.co.jp/" target="_blank" class="p-3 border rounded text-center text-blue-600 hover:bg-blue-50 transition font-bold">企業公式サイト ↗</a>
+                <a href="https://prtimes.jp/main/html/rd/p/000000032.000043426.html" target="_blank" class="p-3 border rounded text-center text-blue-600 hover:bg-blue-50 transition font-bold">Fast 50 1位受賞リリース ↗</a>
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vSQUpcwF2n-OuSsajkugW0ixfr_QI5FPRfTt70YPQU7u5XTiwUZitHswzrjc6GnOJvzJ58HcQhQI27_/pub" target="_blank" class="p-3 border rounded text-center text-blue-600 hover:bg-blue-50 transition font-bold">会社紹介資料 ↗</a>
             </div>
         </section>
 
         <hr class="border-gray-200">
 
-        <section id="company2" class="scroll-mt-20">
-            <div class="flex flex-wrap gap-2 mb-2">
-                <span class="bg-gray-800 text-white px-3 py-1 text-xs font-bold rounded">M&Aエグゼキューション</span>
-            </div>
-            <h2 class="text-3xl md:text-4xl font-black mb-6">株式会社TX-Delight</h2>
+        <section id="company2" class="anchor-offset">
+            <h2 class="text-3xl md:text-4xl font-black mb-6">株式会社TXｰDelight</h2>
             
             <div class="corporate-overview p-6 mb-8">
                 <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-widest">Corporate Overview</h3>
                 <table class="w-full text-sm">
-                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア39階 WeWork</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32 md:w-48">本社住所</th><td class="py-2">〒150-0002 東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア39階 WeWork</td></tr>
                     <tr class="border-b border-gray-200"><th class="py-2 text-left">設立</th><td class="py-2">2022年</td></tr>
                     <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">未上場</td></tr>
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 text-gray-700">
-                <p>2022年に設立されたM&A仲介および戦略コンサルティングを主軸とする企業です。「Make Your Transaction Delight」を掲げ、単なる企業間のマッチングにとどまらず、M&A前段の戦略策定から、買収後のPMI、IR戦略までを一気通貫で伴走しています。独自のデータベースやAIによる分析だけでなく、「どう買えば企業価値を2倍、3倍にできるか」をロジカルに描き切る提案力が、PEファンドや大企業からの厚い信頼と、高値での売却実績に繋がっています。</p>
-            </div>
+            <div class="prose max-w-none mb-8 text-gray-700 whitespace-pre-wrap">2022年に設立されたM&A仲介および戦略コンサルティングを主軸とする企業です。「Make Your Transaction Delight」を掲げ、単なる企業間のマッチングにとどまらず、M&A前段の戦略策定から、買収後のPMI、IR戦略までを一気通貫で伴走しています。独自のデータベースやAIによる分析だけでなく、「どう買えば企業価値を2倍、3倍にできるか」をロジカルに描き切る提案力が、PEファンドや大企業からの厚い信頼と、高値での売却実績に繋がっています。</div>
 
             <div class="morich-highlight p-6 mb-8 rounded-lg">
-                <p class="text-sm leading-relaxed">代表をはじめとする経営陣は、連続起業家、戦略コンサルタント、PE事業責任者、VC投資家、M＆Aのストロングバイヤー企業の投資/PMI責任者等の経験を持つプロフェッショナル集団です。圧倒的な引き合いに対し、高品質にエグゼキューションする人員の不足がボトルネックとなっており、外部から中核となるプロフェッショナル人材を迎え入れる非常に重要なフェーズです。</p>
+                <p class="text-sm leading-relaxed">連続起業家、戦略コンサルタント、PE事業責任者など、M&Aと事業成長のプロフェッショナルが結集した極めて密度の高い組織です。案件のクオリティが極めて高く、大物案件の引き合いが絶えない状況です。ファームビルディングを加速させる、まさに「中核メンバー」としての参画が期待されるフェーズです。</p>
             </div>
 
-            <div class="bg-white border p-6 rounded-lg mb-8">
-                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール：山崎 満久 氏</h4>
-                <p class="text-sm text-gray-700">1989年生まれ。慶應義塾大学卒。(株)じげん入社後、個人事業売却を経てドリームインキュベータ入社。大企業への戦略コンサルやDX/IT領域のコンサル事業立ち上げ責任者を歴任し、2022年に同社を創業。</p>
+            <div class="bg-white border p-6 rounded-lg mb-8 shadow-sm">
+                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール</h4>
+                <p class="text-sm text-gray-700 font-bold mb-2">代表取締役　山崎 満久 氏</p>
+                <p class="text-sm text-gray-700">慶應義塾大学卒業。株式会社じげんにて事業責任者やM&A後の子会社経営に従事。その後個人事業の売却を経て、ドリームインキュベータ（DI）にて戦略コンサルティングや全社M&A戦略の策定・実行を牽引。2022年に株式会社TX-Delightを創業。</p>
             </div>
 
-            <div class="mb-8 text-center">
-                <a href="https://tx-delight.com/" target="_blank" class="inline-block px-8 py-3 border-2 border-morich-red text-morich-red font-bold rounded-full hover:bg-morich-red hover:text-white transition">企業公式サイト ↗</a>
-            </div>
-
-            <div class="job-card bg-gray-50 p-6 rounded">
-                <h3 class="text-xl font-bold mb-4">募集要項：M&Aエグゼキューション</h3>
-                <div class="space-y-4 text-sm text-gray-700">
-                    <div><span class="font-bold text-black">業務内容：</span>M&A関連資料作成（ノンネーム/IM）、買い手候補の探索・提案、条件交渉、プロセスマネジメント、インタビュー対応等。戦略的思考でディールを推進する中核的役割。</div>
-                    <div><span class="font-bold text-black">応募資格：</span>戦略思考力、M&Aディールの実務知見、高品質なプロジェクト推進力。ベンチャーマインドをお持ちの方。</div>
-                </div>
+            <div class="grid grid-cols-1">
+                <a href="https://tx-delight.com/" target="_blank" class="p-3 border rounded text-center text-blue-600 hover:bg-blue-50 transition font-bold">企業公式サイト ↗</a>
             </div>
         </section>
 
         <hr class="border-gray-200">
 
-        <section id="company3" class="scroll-mt-20">
-            <div class="flex flex-wrap gap-2 mb-2">
-                <span class="bg-gray-800 text-white px-3 py-1 text-xs font-bold rounded">人事本部長</span>
-            </div>
+        <section id="company3" class="anchor-offset">
             <h2 class="text-3xl md:text-4xl font-black mb-6">Mpathy株式会社</h2>
             
             <div class="corporate-overview p-6 mb-8">
                 <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-widest">Corporate Overview</h3>
                 <table class="w-full text-sm">
-                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">東京都渋谷区渋谷四丁目５番６号 トキワビル４０１号室</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32 md:w-48">本社住所</th><td class="py-2">〒150-0002 東京都渋谷区渋谷4丁目5番6号 トキワビル401号室</td></tr>
                     <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">未上場</td></tr>
-                    <tr class="border-b border-gray-200"><th class="py-2 text-left">2025年売上予測</th><td class="py-2">20億円弱（黒字4億円弱の見込み）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">2025年予測</th><td class="py-2">売上20億円弱 / 黒字4億円弱（見込み）</td></tr>
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 text-gray-700">
-                <p>医療機関のDX支援とホスピス運営を展開する医療×テクノロジー企業です。「人と医療の距離を縮める」を掲げ、クリニック運営支援と自社医療施設運営の両軸で事業を拡大しています。主力のクリニック領域では、「クリニックプラス」として9院を運営し、DXを駆使した高い利便性を実現。ホスピス事業では、24時間365日体制の「ウェルホーム」を展開。極めて高い収益性を基盤に、地方企業やブルーカラー産業のM&Aも視野に入れています。</p>
-            </div>
+            <div class="prose max-w-none mb-8 text-gray-700 whitespace-pre-wrap">医療機関のDX支援とホスピス運営を展開する医療×テクノロジー企業です。主力のクリニック領域では「クリニックプラス」として9院を運営。DXを駆使して待ち時間短縮などを実現し、高い収益性を誇っています。
+ホスピス事業では「ウェルホーム」を5施設展開。24時間365日の看護体制を整え、医療依存度の高い方々を支えています。今後は医療事業で生み出したキャッシュフローを基盤に、M&Aを通じて地場の優良企業やブルーカラー産業をグループ化していく構想を持っています。</div>
 
             <div class="morich-highlight p-6 mb-8 rounded-lg">
-                <p class="text-sm leading-relaxed">外資系金融出身のFounderと、Paidy社長等を歴任した杉江社長の超強力タッグ。医療事業で生み出したキャッシュを基盤に、M&Aを通じたさらなるグループ拡大を目論む刺激的なフェーズです。現在は社長が人事本部長を兼務しており、ゼロベースから人事の枠組みを構築するリーダーを求めています。</p>
+                <p class="text-sm leading-relaxed">外資金融出身のFounderと、Paidy社長を務めた杉江社長という日本屈指の経営陣。極めて高い収益性を維持しつつ、医療×テクノロジー×資本政策を掛け合わせたダイナミックな事業展開が魅力です。現在は社長が人事責任者を兼務しており、次なる成長を支える組織づくりの主役を求めています。</p>
             </div>
 
-            <div class="bg-white border p-6 rounded-lg mb-8">
-                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール：杉江 陸 氏</h4>
-                <p class="text-sm text-gray-700">東京大学卒。富士銀行、アクセンチュア、GEを経て、新生フィナンシャル社長。2017年よりPaidy代表としてPayPalによる約3,000億円での売却を主導した、日本屈指のプロ経営者です。</p>
+            <div class="bg-white border p-6 rounded-lg mb-8 shadow-sm">
+                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール</h4>
+                <p class="text-sm text-gray-700 font-bold mb-2">代表取締役　杉江 陸 氏</p>
+                <p class="text-sm text-gray-700">富士銀行、アクセンチュア、新生フィナンシャル代表取締役を経て、Paidy代表取締役社長としてPayPalによる約3,000億円での買収をリードした経験を持つプロ経営者。2024年より現職。</p>
             </div>
 
-            <div class="mb-8 text-center">
-                <a href="https://mpathy.co.jp/" target="_blank" class="inline-block px-8 py-3 border-2 border-morich-red text-morich-red font-bold rounded-full hover:bg-morich-red hover:text-white transition">企業公式サイト ↗</a>
-            </div>
-
-            <div class="job-card bg-gray-50 p-6 rounded">
-                <h3 class="text-xl font-bold mb-4">募集要項：人事本部長</h3>
-                <div class="space-y-4 text-sm text-gray-700">
-                    <div><span class="font-bold text-black">業務内容：</span>ゼロベースから人事の枠組みを構築し、人事企画や制度設計を担当。経営陣と対等に議論しながら、組織拡大に合わせた最適な仕組みをカスタマイズしていただきます。</div>
-                    <div><span class="font-bold text-black">勤務地：</span>東京（基本出社）</div>
-                </div>
+            <div class="grid grid-cols-1">
+                <a href="https://mpathy.co.jp/" target="_blank" class="p-3 border rounded text-center text-blue-600 hover:bg-blue-50 transition font-bold">企業公式サイト ↗</a>
             </div>
         </section>
 
         <hr class="border-gray-200">
 
-        <section id="company4" class="scroll-mt-20">
-            <div class="flex flex-wrap gap-2 mb-2">
-                <span class="bg-gray-800 text-white px-3 py-1 text-xs font-bold rounded">人事マネージャー</span>
-            </div>
+        <section id="company4" class="anchor-offset">
             <h2 class="text-3xl md:text-4xl font-black mb-6">株式会社エムニ</h2>
             
             <div class="corporate-overview p-6 mb-8">
                 <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-widest">Corporate Overview</h3>
                 <table class="w-full text-sm">
-                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">東京都千代田区東神田1丁目11-5 石田ビル東神田3F</td></tr>
-                    <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">未上場（N-3期 / 2029年上場目標）</td></tr>
-                    <tr class="border-b border-gray-200"><th class="py-2 text-left">従業員規模</th><td class="py-2">正社員22名（業務委託含め約150名）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32 md:w-48">本社住所</th><td class="py-2">〒101-0031 東京都千代田区東神田1丁目11-5 石田ビル東神田3F</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">設立</th><td class="py-2">2021年</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">未上場（N-3期 / 2029年予定）</td></tr>
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 text-gray-700">
-                <p>製造業に特化した生成AI活用スタートアップ。松尾研発かつ京都大学発の技術力を背景に、AIの企画から運用までを一気通貫で支援。熟練工の暗黙知を言語化する『AIインタビュアー』など、現場のDXを強力に推進しています。外部調達に頼らず自社収益で黒字経営を継続しており、2029年の上場を見据えて組織基盤を強化中です。エンジニア中心のフルリモート組織で、高い技術的関心と論理性を重んじるカルチャーです。</p>
-            </div>
+            <div class="prose max-w-none mb-8 text-gray-700 whitespace-pre-wrap">製造業に特化した生成AI活用スタートアップ。松尾研発かつ京都大学発の学術基盤と技術力を背景に、オーダーメイドAIの企画から導入・運用まで一気通貫で支援。熟練工の暗黙知をAIで抽出する『AIインタビュアー』や業務支援システムを提供し、製造現場のDXを推進しています。
+現在、外部調達に頼らず自社収益で黒字経営を継続中。エンジニアを含めた約150名の組織をフルリモート体制で運営しています。</div>
 
             <div class="morich-highlight p-6 mb-8 rounded-lg">
-                <p class="text-sm leading-relaxed">「大学の研究室」のような、知的で静かな熱量を持つプロフェッショナル集団。150名規模まで拡大した組織に対し、専任の人事マネージャーが不在のため、評価制度の再設計や代表依存の採用体制からの脱却を担う非常にやりがいのあるポジションです。Forbes 30 UNDER 30選出の若き天才CEOと共に組織を作れます。</p>
+                <p class="text-sm leading-relaxed">「AIで働く環境を幸せに、世界にワクワクを」を掲げる、静かな熱量を持ったプロフェッショナル集団。
+代表はForbes JAPAN「30 UNDER 30 2025」に選出された注目の若手。
+150名規模まで急拡大した組織を支える、本格的な人事・組織づくりの体制を今まさに構築しようとしているタイミングです。</p>
             </div>
 
-            <div class="bg-white border p-6 rounded-lg mb-8">
-                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール：下野 祐太 氏</h4>
-                <p class="text-sm text-gray-700">京都大学大学院卒。松尾研究所にて製造業向けAI実装に従事。Preferred NetworksやDeNA等、大手企業プロジェクト経験多数。「Forbes JAPAN 30 UNDER 30 2025」選出の、ビジネスとテックの両輪を回す経営者です。</p>
+            <div class="bg-white border p-6 rounded-lg mb-8 shadow-sm">
+                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール</h4>
+                <p class="text-sm text-gray-700 font-bold mb-2">代表取締役CEO　下野 祐太 氏</p>
+                <p class="text-sm text-gray-700">京都大学大学院卒。松尾研究所にて製造業向けのAI社会実装に従事。DeNA、リクルート等大手企業でのプロジェクト経験多数。松尾研起業クエスト1期生。「Forbes JAPAN 30 UNDER 30 2025」世界を変える30歳未満として選出。</p>
             </div>
 
-            <div class="mb-8 text-center">
-                <a href="https://www.emuniinc.jp/" target="_blank" class="inline-block px-8 py-3 border-2 border-morich-red text-morich-red font-bold rounded-full hover:bg-morich-red hover:text-white transition">企業公式サイト ↗</a>
-            </div>
-
-            <div class="job-card bg-gray-50 p-6 rounded">
-                <h3 class="text-xl font-bold mb-4">募集要項：人事マネージャー</h3>
-                <div class="space-y-4 text-sm text-gray-700">
-                    <div><span class="font-bold text-black">業務内容：</span>現状に即した評価制度の再設計と運用フローの確立。代表依存の採用体制からの脱却を目指し、持続可能な採用戦略とプロセスをゼロから構築していただきます。</div>
-                    <div><span class="font-bold text-black">勤務地：</span>東京（フルリモート可） / 副業：条件により可</div>
-                </div>
+            <div class="grid grid-cols-1">
+                <a href="https://www.emuniinc.jp/" target="_blank" class="p-3 border rounded text-center text-blue-600 hover:bg-blue-50 transition font-bold">企業公式サイト ↗</a>
             </div>
         </section>
 
         <hr class="border-gray-200">
 
-        <section id="company5" class="scroll-mt-20">
-            <div class="flex flex-wrap gap-2 mb-2">
-                <span class="bg-gray-800 text-white px-3 py-1 text-xs font-bold rounded">人事部長（執行役員候補）</span>
-                <span class="bg-red-500 text-white px-3 py-1 text-xs font-bold rounded">N-1期</span>
-            </div>
+        <section id="company5" class="anchor-offset">
             <h2 class="text-3xl md:text-4xl font-black mb-6">株式会社ヒュープロ</h2>
             
             <div class="corporate-overview p-6 mb-8">
                 <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-widest">Corporate Overview</h3>
                 <table class="w-full text-sm">
-                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">東京都渋谷区道玄坂2-16-4 野村不動産渋谷道玄坂ビル 4階/6階</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32 md:w-48">本社住所</th><td class="py-2">〒150-0043 東京都渋谷区道玄坂2-16-4 野村不動産渋谷道玄坂ビル 4F/6F</td></tr>
                     <tr class="border-b border-gray-200"><th class="py-2 text-left">設立</th><td class="py-2">2015年11月</td></tr>
                     <tr class="border-b border-gray-200"><th class="py-2 text-left">累計調達額</th><td class="py-2">約7億円（藤田ファンド等）</td></tr>
-                    <tr><th class="py-2 text-left">上場区分</th><td class="py-2">未上場（N-1期 / IPO準備中）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">未上場（N-1期）</td></tr>
                 </table>
             </div>
 
-            <div class="prose max-w-none mb-8 text-gray-700">
-                <p>士業・管理部門領域に特化した転職プラットフォーム『最速転職 HUPRO』を運営。独自のアルゴリズムと専任アドバイザーの支援により、非常にスピーディーなマッチングを実現。税理士・会計業界では公開求人数国内No.1を誇ります。2022年には藤田ファンドから3億円の資金調達を実施。閉鎖的だった士業市場をテクノロジーでオープンにし、スキルベースのマッチングを実現する業界のゲームチェンジャーです。</p>
-            </div>
+            <div class="prose max-w-none mb-8 text-gray-700 whitespace-pre-wrap">士業・管理部門領域に特化したキャリア支援プラットフォームを展開。転職支援サービス『最速転職 HUPRO』は累計4万人以上のユーザーが利用し、税理士・会計業界専門の求人サイトとして国内トップクラスの規模を誇ります。
+業界の閉鎖的な環境をテクノロジーでオープンにし、求職者と企業の双方にとって「最速」で最適なマッチングを実現。2022年には藤田ファンドから3億円の調達を実施し、IPOに向けて急成長を遂げています。</div>
 
             <div class="morich-highlight p-6 mb-8 rounded-lg">
-                <p class="text-sm leading-relaxed">★IPO準備フェーズ：N-1期。10年目を迎え、今後の資金調達は行わずIPOへ突き進む非常にエキサイティングなステージです。山本社長がこれまで兼任してきた人事部長職を引き継ぎ、戦略人事（給与テーブル・評価制度変革）をリードしていただきます。社員数は急拡大中で、直近3年で400名体制を目指すダイナミズムを体感できます。</p>
+                <p class="text-sm leading-relaxed">★IPO準備フェーズ：N-1期
+山本社長が大学4年時に設立し、10年かけて日本有数の専門特化プラットフォームを育て上げました。
+アクティブユーザーの囲い込みに成功しており、今後の資金調達を行わず自力でIPOへ突き進む力強さがあります。
+お若いながらも圧倒的な実績を持つ山本社長と直接組織を創れるチャンスです。</p>
             </div>
 
-            <div class="bg-white border p-6 rounded-lg mb-8">
-                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール：山本 玲奈 氏</h4>
-                <p class="text-sm text-gray-700">1993年生まれ。慶應義塾大学在学中に起業。18年間の海外生活を経て、日本の労働市場の課題解決を志す。「Forbes 30 Under 30 Asia 2022」等にも選出される、非常にポジティブでパワフルな若手女性起業家です。</p>
+            <div class="bg-white border p-6 rounded-lg mb-8 shadow-sm">
+                <h4 class="font-bold border-b pb-2 mb-4">代表プロフィール</h4>
+                <p class="text-sm text-gray-700 font-bold mb-2">代表取締役　山本 玲奈 氏</p>
+                <p class="text-sm text-gray-700">1993年生まれ。幼少期から18年間を海外で過ごし、慶應義塾大学在学中に株式会社ヒュープロを創業。司法試験受験のバックグラウンドを活かし士業特化のサービスを開始。「Forbes 30 Under 30 Asia 2022」等に選出される新進気鋭の起業家。</p>
             </div>
 
-            <div class="mb-8 text-center">
-                <a href="https://corp.hupro-job.com/" target="_blank" class="inline-block px-8 py-3 border-2 border-morich-red text-morich-red font-bold rounded-full hover:bg-morich-red hover:text-white transition">企業公式サイト ↗</a>
-            </div>
-
-            <div class="job-card bg-gray-50 p-6 rounded">
-                <h3 class="text-xl font-bold mb-4">募集要項：人事部長（執行役員候補）</h3>
-                <div class="space-y-4 text-sm text-gray-700">
-                    <div><span class="font-bold text-black">業務内容：</span>採用と戦略人事の統括。特に急拡大期における給与テーブルや評価制度の再構築、組織文化の浸透をリードしていただきます。山本代表と二人三脚で組織を創るポジションです。</div>
-                    <div><span class="font-bold text-black">応募資格：</span>戦略人事の経験（特に評価・給与制度の変革に関わった経験）。人材系企業での人事経験者は大歓迎。</div>
-                    <div><span class="font-bold text-black">勤務地：</span>東京（基本出社） / 副業：条件により可</div>
-                </div>
+            <div class="grid grid-cols-1">
+                <a href="https://corp.hupro-job.com/" target="_blank" class="p-3 border rounded text-center text-blue-600 hover:bg-blue-50 transition font-bold">企業公式サイト ↗</a>
             </div>
         </section>
 
     </main>
 
-    <footer class="bg-gray-100 py-10 text-center">
-        <p class="text-sm text-gray-500 mb-2">Produced by morich</p>
-        <p class="text-xs text-gray-400">&copy; 2026 morich inc. All rights reserved.</p>
+    <footer class="bg-gray-100 py-12 mt-20 border-t">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <img src="morich_logo.jpg" alt="morich" class="h-10 mx-auto mb-4 opacity-70">
+            <p class="text-sm text-gray-500 mb-2">右田雄介 様のご活躍を心より応援しております。</p>
+            <p class="text-xs text-gray-400">&copy; 2026 morich inc. Produced by morichページメーカー</p>
+        </div>
     </footer>
 
 </body>
